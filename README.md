@@ -8,4 +8,4 @@ A list that is saved to local storage is a useful tool for keeping track of task
 
 ---
 
-![My Image](To-Do_list.png)
+![My Image](To-Do_List.png)
