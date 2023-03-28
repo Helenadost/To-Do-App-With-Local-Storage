@@ -1,0 +1,47 @@
+* {
+    font-size: 1em;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #ffb4a2 0%, #8e55f0 100%);
+}
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.newTaskBox {
+    padding: 1.4em 1em;
+    background-color: #fff;
+    border-radius: 0.5em;
+    text-align: center;
+    margin: 2em auto;
+    box-shadow: 10px 10px 15px #282828c9;
+}
+
+#newTask {
+    padding: 0.3em;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+}
+
+#addTask {
+    color: #fff;
+    padding: 0.3em;
+    border: 1px solid #ab6ddd;
+    border-radius: 5px;
+    background: #ab6ddd;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px #282828c9;
+}
+
+#tasksList {
+    padding: 1.4em 1em;
+    background-color: #fff;
+    border-radius: 0.5em;
+    margin: 2em auto;
+    box-shadow: 10px 10px 15px #282828c9;
+}
