@@ -45,3 +45,47 @@ body {
     margin: 2em auto;
     box-shadow: 10px 10px 15px #282828c9;
 }
+
+.task {
+    border-bottom: 1px solid #c5c5c5;
+    padding: 0.4em 0;
+    margin: 0.5em 0;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto calc(20px + 0.6em)calc(20px + 0.6em);
+}
+
+.btnGroup {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 0 .3em;
+    box-shadow: 2px 2px 5px #282828c9;
+}
+
+.delete {
+    background-image: url(img/delete.png);
+    background-color: #ab6ddd;
+    border: 1px solid #ab6ddd;
+}
+
+.done {
+    background-image: url(img/done.png);
+    background-color: #ffffff;
+    border: 1px solid #dfdfdf;
+
+}
+
+.crossOut {
+    text-decoration: line-through;
+}
+
+.undone {
+    background-image: url(img/undone.png);
+    background-color: #ffffff;
+    border: 1px solid #e7e7e7;
+
+}
